@@ -1,0 +1,47 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background: linear-gradient(black 0%, white 100%);
+}
+
+#menu {
+    list-style: none;
+    top: 0px;
+    z-index: 500;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    left: 0;
+}
+
+#titulo {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+}
+
+.item {
+    float: left;
+    padding: 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 400px;
+    border-radius: 8%;
+}
+
+#contato a {
+    color: black;
+}
+
+#bio {
+    color: white;
+}
